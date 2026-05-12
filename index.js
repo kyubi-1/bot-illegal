@@ -224,20 +224,20 @@ const MISSIONS = [
   { title: 'Livraison Eastside', diff: 'easy', org: ['gang'], secret: false, lines: [
     `[Appel entrant — ${VICTOR_NUMBER}]`,
     `— C'est moi.`,
-    `— T'as une livraison. Un sac. Forum Drive, côté épicerie.`,
+    `— T'as une livraison pour moi. Appelles mon numero et récupère moi un sac. Forum Drive, côté épicerie.`,
     `— Tu le poses dans la benne derrière le bâtiment B. Personne te voit. T'en parles à personne.`,
     `— Confirme quand c'est fait.`,
   ]},
   { title: 'Coursier Strawberry', diff: 'easy', org: ['gang'], secret: false, lines: [
     `[SMS entrant — ${VICTOR_NUMBER}]`,
     `Besoin de toi.`,
-    `Récupère l'enveloppe chez Jermaine, Strawberry Ave.`,
+    `Récupère l'enveloppe chez Jermaine, Strawberry Ave, il t'attendras devant sa porte sur une petite chaise.`,
     `Tu la déposes au parking Davis, voiture rouge, vitre ouverte.`,
     `Touche à rien dedans.`,
   ]},
   { title: 'Dépôt discret', diff: 'easy', org: ['gang'], secret: false, lines: [
     `[SMS entrant — ${VICTOR_NUMBER}]`,
-    `Y'a un casier à la gare de LS. Numéro 14.`,
+    `Y'a un casier à la gare de LS. Devant ce tiens Jaden, Un ami à moi à côté du Numéro 14.`,
     `T'y vas, tu récupères, tu ramènes.`,
     `Prends pas ton propre véhicule.`,
   ]},
@@ -274,7 +274,7 @@ const MISSIONS = [
   { title: 'Livraison privée', diff: 'easy', org: ['cartel'], secret: false, lines: [
     `[Appel entrant — ${VICTOR_NUMBER}]`,
     `— Une mallette.`,
-    `— Hôtel del Perro, réception. Tu demandes la chambre au nom de Morales.`,
+    `— Motel, réception. Tu demandes la chambre au nom de Morales.`,
     `— Tu poses. Tu pars. T'as jamais été là.`,
   ]},
   { title: 'Enlèvement de fichiers', diff: 'easy', org: ['cartel'], secret: false, lines: [
@@ -296,24 +296,17 @@ const MISSIONS = [
   // GANG — MOYEN
   { title: 'Raid dépôt adverse', diff: 'medium', org: ['gang'], secret: false, lines: [
     `[Appel entrant — ${VICTOR_NUMBER}]`,
-    `— Ils ont un stock dans l'entrepôt de Cypress Flats.`,
-    `— T'entre, tu prends ce qu'il y a dans les caisses bleues, tu repars.`,
+    `— Ils ont un stock dans un entrepôt pas loin du sud.`,
+    `— T'entre, tu prends ce qu'il y a dans les caisses, tu repars.`,
     `— Y'a deux gardes. À toi de voir comment tu gères.`,
     `— Mais t'arrive pas avec des éclairs et des sirènes. Discret.`,
   ]},
   { title: 'Pression recouvrement', diff: 'medium', org: ['gang'], secret: false, lines: [
     `[Appel entrant — ${VICTOR_NUMBER}]`,
-    `— Un certain Damien nous doit 35k depuis deux mois.`,
+    `— Un certain Damien nous doit 350k depuis maintenant deux mois.`,
     `— Il traine du côté de Chamberlain Hills le soir.`,
     `— T'as pas besoin de le tuer. T'as juste besoin qu'il comprenne.`,
     `— Ramène le cash. Ou une bonne raison de faire une exception.`,
-  ]},
-  { title: 'Escorte convoi', diff: 'medium', org: ['gang'], secret: false, lines: [
-    `[SMS entrant — ${VICTOR_NUMBER}]`,
-    `Convoi dans 2h. Route 68 jusqu'à Grapeseed.`,
-    `Trois véhicules. Tu assures les arrières.`,
-    `Si quelqu'un nous colle — tu t'en occupes avant qu'il soit trop proche.`,
-    `Pas de flics. Pas de témoins.`,
   ]},
 
   // ORGA — MOYEN
@@ -342,7 +335,7 @@ const MISSIONS = [
   { title: 'Élimination informateur', diff: 'medium', org: ['cartel'], secret: false, lines: [
     `[SMS entrant — ${VICTOR_NUMBER}]`,
     `On a un problème. Quelqu'un parle.`,
-    `Prénom : Marco. Travaille au Red Lobster près du port.`,
+    `Prénom : Marco. Travaille au Bahmas près de la plage.`,
     `T'as jusqu'à demain matin.`,
     `Propre.`,
   ]},
