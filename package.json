@@ -1,0 +1,13 @@
+{
+  "name": "rp-mission-bot",
+  "version": "5.0.0",
+  "description": "Bot Discord missions RP — Victor Graves",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "dotenv": "^16.4.5"
+  }
+}
